@@ -9,6 +9,7 @@ class Solution {
         int arrLength = cArr.length;
         
         for(int i=0; i < arrLength; i++){
+            
             if((i == 0 && cArr[i] == ')') || ( i == arrLength -1 && cArr[arrLength-1] == '(')){
                 answer = false;
                 break;
@@ -20,6 +21,7 @@ class Solution {
             
             if(rightCnt > leftCnt){
                 answer = false;
+                break;
             }
         }
         
