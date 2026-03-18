@@ -14,17 +14,9 @@ public class Main {
             int A = Integer.parseInt(st.nextToken());
             int B = Integer.parseInt(st.nextToken());
 
-            sb.append("Case #")
-              .append(i)
-              .append(": ")
-              .append(A)
-              .append(" + ")
-              .append(B)
-              .append(" = ")
-              .append(A+B)
-              .append("\n");
+            System.out.println("Case #"+i+": "+ A+" + " + B+ " = "+ (A+B));
         }
 
-        System.out.print(sb);
+
     }
 }
